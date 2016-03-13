@@ -1,7 +1,0 @@
-*grep -ioE 精确过滤匹配正则表达式
-
-*awk '{print $num}' 对每一条根据空格拆分成数组
-
-*sort 排序  sort -rn 倒序 显示数量
-
-*uniq -c  去重显示数量
