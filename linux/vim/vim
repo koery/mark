@@ -1,0 +1,4 @@
+* set nu|number|nonumber|nonu 是否开齐行号
+* set cindent 缩进
+* syntax on|off 高亮
+* 
