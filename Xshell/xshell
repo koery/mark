@@ -10,3 +10,6 @@
  ctrl+shift+r  重新連接
  ctrl+d 	   斷開并關閉當前連接
  shift+insert  複製
+ shift+ctrl+n  新建选项卡
+ ctrl+alt+n    新建窗口
+ shift+ctrl+f4 关闭选项卡
