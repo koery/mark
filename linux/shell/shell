@@ -1,7 +1,46 @@
 *grep -ioE 精确过滤匹配正则表达式
+grep ^aaa  匹配以aaa 开头的行
+grep [[:blank:]]aaa 匹配以aaa开头的单词行
 
 *awk '{print $num}' 对每一条根据空格拆分成数组
 
 *sort 排序  sort -rn 倒序 显示数量
 
 *uniq -c  去重显示数量
+
+分号可以分割命令 使多个命令可以在一行
+
+命令后面 加上& 可以将命令放到后台执行
+
+$? $@ $# $$ $0
+
+if..elif..else..fi
+
+-d dir -f file -e exist -z null -r read -w wirte -x executable
+
+case val in
+	a)
+	;;
+	b)
+	;;
+	*)
+	;;
+esac
+
+shitf 参数分别往前移动
+
+cat $file | while IFS=: read a b c d
+do
+	.....
+done
+
+while IFS=: read a b c d
+do
+	....
+done << $file
+
+
+
+
+
+
