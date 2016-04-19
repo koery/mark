@@ -127,3 +127,17 @@ l  MyAsm引擎
 [3]     User.MYD负责存储实际的数据记录，所有的用户记录都存储在这个文件中
 
 [4]     User.MYI负责存储用户表的所有索引，这里也包括主键索引。
+
+
+InnoDB 和 myisam 的主要区别
+
+InnoDB 能达到行锁级别  myisam 达到表锁级别 所以Innodb在高并发处理能力比myisam优秀
+InnoDB 支持事务处理
+InnoDB 在处理频繁的更新插入操作能力方面比 myisam 优秀
+
+InnoDB 的count(*) 优化
+
+1 不要用count(*) 做精确统计  全表扫描
+2 读取INFORMATION_SCHEMA tables的rows作非精确的统计
+3 建立二级索引 secondary index
+
