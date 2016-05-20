@@ -9,4 +9,4 @@ wget http://cn.php.net/distributions/php-x.x.x.tar.gz
 
 cp /opt/software/php7/etc/php-fpm.conf.default  php-fpm.conf
 cp /opt/software/php7/etc/php-fpm.d/www.conf.default www.conf
-cp /opt/download/php-7.0.6p/hp.ini-development php.ini
+cp /opt/download/php-7.0.6/php.ini-development php.ini
